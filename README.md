@@ -1,2 +1,2 @@
-# greencottage
-Website to make a booking using a calendar 
+# Green Cottage
+Website to booking my cottage for a short holiday by clicking a check in and check out dates on a calendar. 
