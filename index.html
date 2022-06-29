@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Green Cottage</title>
+</head>
+<body>
+    <!--Check-in button. Opens a calendar-->
+    <button type="button" onclick="alert('Check-in')">Check-in</button>
+    Check-out <br><!--Check-out button. Opens a calendar-->
+    <button type="button" onclick="alert('Check-out')">Check-out</button>
+    Travellers <br><!--On click opens a counter up or down for adults and separately for kids -->
+    <button type="button" onclick="alert('Travellers 2 travellers')">Travellers 2 travellers</button>
+    <!--Adults min: 1 adult, max: 2 adults -->
+    <!--Kids min: 0 kids, max: 1 kid --> 
+    <br>
+        <input type="checkbox" id="pets" name="pets" value="Yes">
+        <label for="pets">I understand that no pets are allowed</label><br>
+
+    <div id="checkIn"></div>
+    <div id="checkOut"></div>
+
+        <script src="script.js"></script>
+</body>
+</html>
