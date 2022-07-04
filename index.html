@@ -4,10 +4,30 @@
     <meta charset="UTF-8">
     <title>Green Cottage</title>
     <link rel = "stylesheet" href="./style.css"/>
-    <script type = "module" src="./script.js" defer></script>
 </head>
 <body>
-    
+<div class="container">
+    <form onsubmit="sendEmail()">
+        <h3>Booking Form</h3>
+        <label for="check-in">Check-in:</label>
+        <input type="date" name="check-in" id="check-in" required>
+        <label for="check-out">Check-out:</label>
+        <input type="date" name="check-out" id="check-out" required>
+        <label for="adults">Number of adults:</label>
+        <input type="number" name="adults" id="adults" placeholder="1" required>
+        <label for="kids">Number of kids:</label>
+        <input type="number" name="kids" id="kids" placeholder="0" required>
+        <label for="name">Contact name:</label>
+        <input type="text" name="name" id="name" placeholder="Contact name" required>
+        <label for="e-mail">Contact e-mail:</label>
+        <input type="email" name="e-mail" id="e-mail" placeholder="your@email.com.au" required>
+        <label for="tel">Contact telephone number:</label>
+        <input type="tel" name="tel" id="tel" placeholder="0412 345 678" required>
+        <textarea name="additional-info" id="additional-info" rows="5" placeholder="Any additional information"></textarea>
+        <button type="submit">Submit</button>
+    </form>
+</div>    
 
+<script src="./script.js"></script>
 </body>
 </html>
